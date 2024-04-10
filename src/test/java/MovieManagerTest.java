@@ -83,7 +83,7 @@ public class MovieManagerTest {
     @Test
     public void LimitLessThan5() {
 
-        MovieManager manager = new MovieManager(3);
+        MovieManager manager = new MovieManager();
 
         manager.addMovie("Человек-невидимка");
         manager.addMovie("Тролли. Мировой тур");
